@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 10vh;
+}
+
+ul {
+  display: flex;
+}
+
+.container {
+  width: 30vw;
+  display: flex;
+  align-items: self-start;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  opacity: 0;
+  animation: appear 700ms ease-out forwards;
+  animation-delay: 1000ms;
+}
+
+.container button {
+  background-color: white;
+  font-family: "Alegreya Sans";
+}
+
+.container button a {
+  text-decoration: none;
+  color: black;
+}
+
+.container button a:hover {
+  text-decoration: underline;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
