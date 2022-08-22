@@ -28,6 +28,7 @@ ul {
 
 .container button a {
   text-decoration: none;
+  text-underline-offset: 0.3rem;
   color: black;
 }
 
