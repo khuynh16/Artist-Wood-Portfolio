@@ -19,7 +19,7 @@ const Home = () => {
         <span>Nguyen</span>
       </div>
       <div className={styles.artistPhrase}>
-        <span>Arist.</span>
+        <span>Artist.</span>
         <span>Designer.</span>
         <span>Wood Sculptor.</span>
       </div>

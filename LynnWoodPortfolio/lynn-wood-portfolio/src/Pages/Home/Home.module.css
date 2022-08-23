@@ -10,7 +10,7 @@ h1 {
 }
 
 .mainPic {
-  display: inline-block;
+  /* display: inline-block; */
   max-height: 60vh;
   height: 60vh;
   animation: slide-down 1000ms ease-out forwards;
@@ -18,7 +18,6 @@ h1 {
 
 .shadow {
   width: 100px;
-  /* Ellipse 3 */
   position: absolute;
   bottom: 17vh;
   width: 276px;
@@ -39,7 +38,6 @@ h1 {
   justify-content: flex-start;
   position: absolute;
   top: 1rem;
-  height: 10vh;
   left: 2rem;
   opacity: 0;
   animation: appear 700ms ease-out forwards;
@@ -54,11 +52,9 @@ h1 {
 .artistPhrase {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   position: absolute;
   right: 2rem;
   bottom: 1rem;
-  height: 10vh;
   opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms;
@@ -69,6 +65,11 @@ h1 {
   justify-content: flex-end;
   border-right: 3px solid black;
   padding-right: 0.5rem;
+}
+
+.artistName,
+.artistPhrase {
+  font-size: 1.5rem;
 }
 
 @keyframes slide-down {
@@ -88,5 +89,20 @@ h1 {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .shadow {
+    width: 200px;
+  }
+
+  .container img {
+    height: 50vh;
+  }
+
+  .artistName,
+  .artistPhrase {
+    font-size: 1rem;
   }
 }
