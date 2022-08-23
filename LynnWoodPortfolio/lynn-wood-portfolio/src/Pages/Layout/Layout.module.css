@@ -36,6 +36,24 @@ ul {
   text-decoration: underline;
 }
 
+.hamburger {
+  width: 35px;
+  height: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburgerLine {
+  width: 100%;
+  height: 3px;
+  background: black;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -46,7 +64,15 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-  .container button {
+  .container button:not(:last-child) {
     display: none;
+  }
+
+  .container {
+    justify-content: flex-end;
+  }
+
+  .hamburger {
+    display: flex;
   }
 }

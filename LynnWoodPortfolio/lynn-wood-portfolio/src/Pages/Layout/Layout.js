@@ -18,6 +18,11 @@ const Layout = () => {
           <button>
             <Link to="/contact">Contact</Link>
           </button>
+          <button className={styles.hamburger}>
+            <span className={styles.hamburgerLine}></span>
+            <span className={styles.hamburgerLine}></span>
+            <span className={styles.hamburgerLine}></span>
+          </button>
         </div>
       </nav>
       <Outlet />
