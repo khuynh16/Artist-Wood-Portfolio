@@ -54,6 +54,11 @@ ul {
   background: black;
 }
 
+.test {
+  border: 2px solid red;
+  display: none;
+}
+
 @keyframes appear {
   from {
     opacity: 0;

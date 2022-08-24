@@ -1,10 +1,16 @@
 import { Outlet, Link } from "react-router-dom";
-import styles from "./Layout.module.css";
+import styles from "./Navbar.module.css";
+import { useState } from "react";
 
-const Layout = () => {
+const Navbar = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
     <>
       <nav className={styles.nav}>
+        {/* <div
+          className={!isNavExpanded ? "styles.container" : console.log("true")}
+        > */}
         <div className={styles.container}>
           <button>
             <Link to="/about">About</Link>
@@ -18,7 +24,10 @@ const Layout = () => {
           <button>
             <Link to="/contact">Contact</Link>
           </button>
-          <button className={styles.hamburger}>
+          <button
+            className={styles.hamburger}
+            onClick={() => setIsNavExpanded(!isNavExpanded)}
+          >
             <span className={styles.hamburgerLine}></span>
             <span className={styles.hamburgerLine}></span>
             <span className={styles.hamburgerLine}></span>
@@ -30,4 +39,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default Navbar;

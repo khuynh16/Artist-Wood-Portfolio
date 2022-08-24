@@ -1,11 +1,11 @@
 import styles from "./Home.module.css";
-import Layout from "../Layout/Layout";
+import Navbar from "../../Components/Navbar/Navbar";
 import main_page_pic from "./../../Assets/Images/Bud.jpg";
 
 const Home = () => {
   return (
     <>
-      <Layout />
+      <Navbar />
       <div className={styles.container}>
         <img
           className={styles.mainPic}
