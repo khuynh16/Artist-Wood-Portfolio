@@ -51,7 +51,8 @@ ul {
   animation-delay: 1000ms;
 }
 
-.hamburger:hover {
+.hamburger:hover,
+button {
   cursor: pointer;
 }
 
@@ -62,13 +63,14 @@ ul {
 }
 
 .expanded {
-  border: 2px solid red;
+  background-color: rgb(10 9 9 / 81%);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  transform: translateY(10vh);
+  transform: translateY(11vh);
   height: 40vh;
   z-index: 1000;
+  width: 100vw;
 }
 
 @keyframes appear {
@@ -85,6 +87,21 @@ ul {
     display: none;
   }
 
+  .expanded button {
+    height: 3rem;
+    width: 100vw;
+    background-color: #66339900;
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 1rem;
+  }
+
+  .expanded button:hover {
+    background-color: rgb(107, 100, 100);
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+
   .container {
     justify-content: flex-end;
   }
@@ -93,5 +110,11 @@ ul {
     display: flex;
     top: 1.5rem;
     right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .expanded {
+    display: none;
   }
 }

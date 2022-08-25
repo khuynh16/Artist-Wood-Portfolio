@@ -15,18 +15,21 @@ const Navbar = () => {
               : styles.container
           }
         >
-          <button>
-            <Link to="/about">About</Link>
-          </button>
-          <button>
-            <Link to="/gallery">Gallery</Link>
-          </button>
-          <button>
-            <Link to="/exhibitions">Exhibitions</Link>
-          </button>
-          <button>
-            <Link to="/contact">Contact</Link>
-          </button>
+          <Link to="/about">
+            <button>About</button>
+          </Link>
+
+          <Link to="/gallery">
+            <button>Gallery</button>
+          </Link>
+
+          <Link to="/exhibitions">
+            <button>Exhibitions</button>
+          </Link>
+
+          <Link to="/contact">
+            <button>Contact</button>
+          </Link>
         </div>
         <button
           className={styles.hamburger}
