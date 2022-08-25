@@ -42,6 +42,13 @@ ul {
   display: none;
   flex-direction: column;
   justify-content: space-evenly;
+  background-color: white;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  opacity: 0;
+  animation: appear 700ms ease-out forwards;
+  animation-delay: 1000ms;
 }
 
 .hamburger:hover {
@@ -54,9 +61,14 @@ ul {
   background: black;
 }
 
-.test {
+.expanded {
   border: 2px solid red;
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transform: translateY(10vh);
+  height: 40vh;
+  z-index: 1000;
 }
 
 @keyframes appear {
@@ -69,7 +81,7 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-  .container button:not(:last-child) {
+  .container button {
     display: none;
   }
 
@@ -79,5 +91,7 @@ ul {
 
   .hamburger {
     display: flex;
+    top: 1.5rem;
+    right: 1.5rem;
   }
 }

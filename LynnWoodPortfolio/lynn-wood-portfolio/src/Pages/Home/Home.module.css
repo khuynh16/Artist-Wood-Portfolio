@@ -37,7 +37,7 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   left: 2rem;
   opacity: 0;
   animation: appear 700ms ease-out forwards;
@@ -54,7 +54,7 @@ h1 {
   flex-direction: column;
   position: absolute;
   right: 2rem;
-  bottom: 1rem;
+  bottom: 2rem;
   opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms;
@@ -104,5 +104,15 @@ h1 {
   .artistName,
   .artistPhrase {
     font-size: 1rem;
+  }
+
+  .artistName {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .artistPhrase {
+    right: 1.5rem;
+    bottom: 1.5rem;
   }
 }

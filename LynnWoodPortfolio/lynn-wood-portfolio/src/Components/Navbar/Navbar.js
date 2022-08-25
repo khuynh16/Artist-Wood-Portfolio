@@ -8,10 +8,13 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.nav}>
-        {/* <div
-          className={!isNavExpanded ? "styles.container" : console.log("true")}
-        > */}
-        <div className={styles.container}>
+        <div
+          className={
+            isNavExpanded
+              ? styles.container && styles.expanded
+              : styles.container
+          }
+        >
           <button>
             <Link to="/about">About</Link>
           </button>
@@ -24,15 +27,15 @@ const Navbar = () => {
           <button>
             <Link to="/contact">Contact</Link>
           </button>
-          <button
-            className={styles.hamburger}
-            onClick={() => setIsNavExpanded(!isNavExpanded)}
-          >
-            <span className={styles.hamburgerLine}></span>
-            <span className={styles.hamburgerLine}></span>
-            <span className={styles.hamburgerLine}></span>
-          </button>
         </div>
+        <button
+          className={styles.hamburger}
+          onClick={() => setIsNavExpanded(!isNavExpanded)}
+        >
+          <span className={styles.hamburgerLine}></span>
+          <span className={styles.hamburgerLine}></span>
+          <span className={styles.hamburgerLine}></span>
+        </button>
       </nav>
       <Outlet />
     </>
