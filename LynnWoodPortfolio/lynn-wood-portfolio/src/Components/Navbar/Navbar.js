@@ -1,9 +1,10 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useLocation } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { useState } from "react";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const location = useLocation();
 
   return (
     <>
@@ -12,23 +13,47 @@ const Navbar = () => {
           className={
             isNavExpanded
               ? styles.container && styles.expanded
-              : styles.container
+              : styles.hiddenAnimationCSS && styles.container
           }
         >
           <Link to="/about">
-            <button>About</button>
+            <button
+              className={
+                location.pathname === "/about" ? styles.activeRoute : ""
+              }
+            >
+              About
+            </button>
           </Link>
 
           <Link to="/gallery">
-            <button>Gallery</button>
+            <button
+              className={
+                location.pathname === "/gallery" ? styles.activeRoute : ""
+              }
+            >
+              Gallery
+            </button>
           </Link>
 
           <Link to="/exhibitions">
-            <button>Exhibitions</button>
+            <button
+              className={
+                location.pathname === "/exhibitions" ? styles.activeRoute : ""
+              }
+            >
+              Exhibitions
+            </button>
           </Link>
 
           <Link to="/contact">
-            <button>Contact</button>
+            <button
+              className={
+                location.pathname === "/contact" ? styles.activeRoute : ""
+              }
+            >
+              Contact
+            </button>
           </Link>
         </div>
         <button

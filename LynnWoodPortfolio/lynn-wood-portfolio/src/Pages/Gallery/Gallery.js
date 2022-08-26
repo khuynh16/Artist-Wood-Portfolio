@@ -2,7 +2,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import ReusableLogo from "../../Components/Logo/Logo";
 // import styles from "./About.module.css";
 
-const About = () => {
+const Gallery = () => {
   return (
     <>
       <Navbar />
@@ -11,4 +11,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Gallery;

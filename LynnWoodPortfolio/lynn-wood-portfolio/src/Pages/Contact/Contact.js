@@ -1,8 +1,8 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import ReusableLogo from "../../Components/Logo/Logo";
-// import styles from "./About.module.css";
+// import styles from "./Contact.module.css";
 
-const About = () => {
+const Contact = () => {
   return (
     <>
       <Navbar />
@@ -11,4 +11,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;

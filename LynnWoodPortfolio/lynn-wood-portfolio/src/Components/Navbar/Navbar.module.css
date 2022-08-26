@@ -16,6 +16,12 @@ ul {
   position: absolute;
   top: 2rem;
   right: 2rem;
+  /* opacity: 0;
+  animation: appear 700ms ease-out forwards;
+  animation-delay: 1000ms; */
+}
+
+.hiddenAnimationCSS {
   opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms;
@@ -42,9 +48,9 @@ ul {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  opacity: 0;
+  /* opacity: 0;
   animation: appear 700ms ease-out forwards;
-  animation-delay: 1000ms;
+  animation-delay: 1000ms; */
 }
 
 .hamburger:hover,
@@ -67,6 +73,11 @@ button {
   height: 40vh;
   z-index: 1000;
   width: 100vw;
+}
+
+.activeRoute {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
 }
 
 @keyframes appear {
