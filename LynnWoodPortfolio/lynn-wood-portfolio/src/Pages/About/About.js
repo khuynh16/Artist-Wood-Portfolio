@@ -1,11 +1,12 @@
 import Navbar from "../../Components/Navbar/Navbar";
-import styles from "./About.module.css";
+// import styles from "./About.module.css";
+import ReusableLogo from "../../Components/Logo/Logo";
 
 const About = () => {
   return (
     <>
       <Navbar />
-      <h1>About</h1>
+      <ReusableLogo />
     </>
   );
 };

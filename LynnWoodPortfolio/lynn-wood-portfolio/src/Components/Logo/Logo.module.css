@@ -1,9 +1,14 @@
 .logo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
   width: 5rem;
+  height: auto;
 }
 
 .logo:hover {
   cursor: pointer;
   -webkit-filter: invert(100%);
   filter: invert(100%);
+  stroke-width: 1;
 }
