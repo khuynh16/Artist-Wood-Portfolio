@@ -14,7 +14,7 @@ ul {
   align-items: self-start;
   justify-content: space-evenly;
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 2rem;
   opacity: 0;
   animation: appear 700ms ease-out forwards;
