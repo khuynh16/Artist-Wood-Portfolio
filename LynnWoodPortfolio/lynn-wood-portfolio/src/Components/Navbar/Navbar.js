@@ -12,8 +12,10 @@ const Navbar = () => {
         <div
           className={
             isNavExpanded
-              ? styles.container && styles.expanded
-              : styles.hiddenAnimationCSS && styles.container
+              ? styles.expanded
+              : location.pathname === "/"
+              ? styles.hiddenAnimationCSS + " " + styles.container
+              : styles.container
           }
         >
           <Link to="/about">
