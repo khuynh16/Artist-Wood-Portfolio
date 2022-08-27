@@ -51,7 +51,7 @@ h1 {
 }
 
 .artistName span {
-  border-left: 3px solid black;
+  border-left: 5px solid black;
   padding-left: 0.5rem;
 }
 
@@ -69,7 +69,7 @@ h1 {
 .artistPhrase span {
   display: flex;
   justify-content: flex-end;
-  border-right: 3px solid black;
+  border-right: 5px solid black;
   padding-right: 0.5rem;
 }
 
@@ -103,13 +103,13 @@ h1 {
     height: 50vh;
   }
 
-  /* .artistName,
-  .artistPhrase {
-    font-size: 1.5rem;
-  } */
-
   .shadow {
     bottom: 12vh;
+  }
+
+  .artistName,
+  .artistPhrase {
+    font-size: 2rem;
   }
 }
 
@@ -122,23 +122,15 @@ h1 {
     bottom: 15vh;
   }
 
-  /* .artistName,
-  .artistPhrase {
-    font-size: 1.5rem;
-  } */
-}
-
-@media screen and (max-width: 380px) {
-  /* .container img {
-    height: 35vh;
-  } */
-
-  /* .shadow {
-    bottom: 20vh;
-  } */
-
   .artistName,
   .artistPhrase {
     font-size: 1.5rem;
   }
 }
+
+/* @media screen and (max-width: 380px) {
+  .artistName,
+  .artistPhrase {
+    font-size: 1.5rem;
+  }
+} */

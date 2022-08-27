@@ -2,7 +2,7 @@
   position: absolute;
   top: 3rem;
   left: 3rem;
-  width: 7rem;
+  width: 9rem;
   height: auto;
 }
 
@@ -12,8 +12,16 @@
   filter: invert(100%);
 }
 
+@media screen and (max-width: 1440px) {
+  .logo {
+    width: 7rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .logo {
-    width: 4rem;
+    width: 5rem;
+    top: 2rem;
+    left: 2rem;
   }
 }

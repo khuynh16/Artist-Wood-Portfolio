@@ -39,7 +39,7 @@ ul {
   color: black;
 }
 
-.hamburger {
+/* .hamburger {
   width: 35px;
   height: 1.5rem;
   display: none;
@@ -49,9 +49,33 @@ ul {
   position: absolute;
   top: 3rem;
   right: 3rem;
-  /* opacity: 0;
+  opacity: 0;
   animation: appear 700ms ease-out forwards;
-  animation-delay: 1000ms; */
+  animation-delay: 1000ms;
+} */
+
+.hamburgerHomePageStyling {
+  width: 35px;
+  height: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}
+
+.hamburgerNonHomePageStyling {
+  width: 35px;
+  height: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
 }
 
 .hamburger:hover,
@@ -131,19 +155,11 @@ button {
     justify-content: flex-end;
   }
 
-  .hamburger {
+  .hamburgerHomePageStyling,
+  .hamburgerNonHomePageStyling {
     display: flex;
-    /* top: 1.5rem;
-    right: 1.5rem; */
   }
 }
-
-/* @media screen and (max-width: 380px) {
-  .expanded {
-    position: absolute;
-    top: 8vh;
-  }
-} */
 
 @media screen and (min-width: 768px) {
   .expanded {

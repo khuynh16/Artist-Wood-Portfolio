@@ -57,7 +57,11 @@ const Navbar = () => {
           </Link>
         </div>
         <button
-          className={styles.hamburger}
+          className={
+            location.pathname === "/"
+              ? styles.hamburgerHomePageStyling
+              : styles.hamburgerNonHomePageStyling
+          }
           onClick={() => setIsNavExpanded(!isNavExpanded)}
         >
           <span className={styles.hamburgerLine}></span>
