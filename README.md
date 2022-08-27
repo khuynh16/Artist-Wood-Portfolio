@@ -13,6 +13,10 @@ black, white and gold
 - Nav bar animation (from no display to slowly appearing) when switching routes (unintended)
 - the responsive hamburger icon disappearing and reappearing when changing browser width (unintended)
 
+8/26/2022:
+
+- if expanded nav bar from small viewport is open on home page and resizing to bigger, the expanded dropdown disappears but the nav bar in the top right corner also disappears
+
 # Change Log:
 
 8/25/2022:
