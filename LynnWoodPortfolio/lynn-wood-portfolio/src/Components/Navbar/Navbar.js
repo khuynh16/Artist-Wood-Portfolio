@@ -61,7 +61,9 @@ const Navbar = () => {
         <button
           className={
             location.pathname === "/"
-              ? styles.hamburgerHomePageStyling
+              ? styles.hamburgerHomePageStyling +
+                " " +
+                styles.hiddenAnimationCSS
               : styles.hamburgerNonHomePageStyling
           }
           onClick={() => setIsNavExpanded(!isNavExpanded)}
