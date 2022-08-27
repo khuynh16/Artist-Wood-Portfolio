@@ -14,8 +14,8 @@ ul {
   align-items: self-start;
   justify-content: space-evenly;
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 3rem;
+  right: 3rem;
   /* opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms; */
@@ -30,6 +30,7 @@ ul {
 .container button {
   background-color: white;
   font-family: "Alegreya Sans";
+  font-size: 1.6rem;
 }
 
 .container a button:hover {
@@ -46,8 +47,8 @@ ul {
   justify-content: space-evenly;
   background-color: white;
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 3rem;
+  right: 3rem;
   /* opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms; */
@@ -89,9 +90,26 @@ button {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    width: 50vw;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container button {
     display: none;
+  }
+
+  .expanded {
+    position: absolute;
+    top: 5vh;
   }
 
   .expanded button {
@@ -100,7 +118,7 @@ button {
     background-color: #66339900;
     color: white;
     font-family: "Alegreya Sans";
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .expanded button:hover {
@@ -119,6 +137,13 @@ button {
     right: 1.5rem; */
   }
 }
+
+/* @media screen and (max-width: 380px) {
+  .expanded {
+    position: absolute;
+    top: 8vh;
+  }
+} */
 
 @media screen and (min-width: 768px) {
   .expanded {

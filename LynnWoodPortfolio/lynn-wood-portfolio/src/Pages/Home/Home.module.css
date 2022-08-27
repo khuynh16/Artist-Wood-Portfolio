@@ -11,20 +11,22 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
 }
 
 .mainPic {
-  /* display: inline-block; */
   max-height: 60vh;
-  height: 60vh;
   animation: slide-down 1000ms ease-out forwards;
 }
 
 .shadow {
   width: 100px;
   position: absolute;
-  bottom: 17vh;
-  width: 276px;
+  bottom: 8vh;
+  width: 90%;
   height: 16px;
   background: #d9d9d9;
   border-radius: 50%;
@@ -41,8 +43,8 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  top: 3rem;
+  left: 3rem;
   opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms;
@@ -57,8 +59,8 @@ h1 {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 2rem;
-  bottom: 2rem;
+  right: 3rem;
+  bottom: 3rem;
   opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms;
@@ -73,7 +75,7 @@ h1 {
 
 .artistName,
 .artistPhrase {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 @keyframes slide-down {
@@ -97,27 +99,46 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  .shadow {
-    width: 200px;
-    bottom: 20vh;
-  }
-
   .container img {
     height: 50vh;
   }
 
+  /* .artistName,
+  .artistPhrase {
+    font-size: 1.5rem;
+  } */
+
+  .shadow {
+    bottom: 12vh;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container img {
+    height: 40vh;
+  }
+
+  .shadow {
+    bottom: 15vh;
+  }
+
+  /* .artistName,
+  .artistPhrase {
+    font-size: 1.5rem;
+  } */
+}
+
+@media screen and (max-width: 380px) {
+  /* .container img {
+    height: 35vh;
+  } */
+
+  /* .shadow {
+    bottom: 20vh;
+  } */
+
   .artistName,
   .artistPhrase {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
-
-  /* .artistName {
-    top: 1.5rem;
-    left: 1.5rem;
-  }
-
-  .artistPhrase {
-    right: 1.5rem;
-    bottom: 1.5rem;
-  } */
 }
