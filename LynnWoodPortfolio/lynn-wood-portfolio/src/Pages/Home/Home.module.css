@@ -20,6 +20,7 @@ h1 {
 .mainPic {
   max-height: 60vh;
   animation: slide-down 1000ms ease-out forwards;
+  /* animation-delay: 0.2s; */
 }
 
 .shadow {

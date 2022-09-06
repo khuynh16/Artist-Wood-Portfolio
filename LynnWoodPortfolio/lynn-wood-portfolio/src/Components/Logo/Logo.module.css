@@ -10,6 +10,9 @@
   cursor: pointer;
   -webkit-filter: invert(100%);
   filter: invert(100%);
+  /* stroke: rgb(6, 35, 88);
+  stroke-width: 1.5px;
+  stroke-opacity: 1; */
 }
 
 @media screen and (max-width: 1440px) {

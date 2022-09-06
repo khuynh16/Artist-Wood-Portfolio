@@ -1,0 +1,18 @@
+.outerContainer {
+  /* border: 5px solid black; */
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.innerContainer > * {
+  width: 400px;
+}

@@ -1,5 +1,6 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import ReusableLogo from "../../Components/Logo/Logo";
+import MainGalleryView from "./MainGalleryView/MainGalleryView";
 // import styles from "./About.module.css";
 
 const Gallery = () => {
@@ -7,6 +8,7 @@ const Gallery = () => {
     <>
       <Navbar />
       <ReusableLogo />
+      <MainGalleryView />
     </>
   );
 };
