@@ -10,7 +10,11 @@ const Card = () => {
   return (
     <>
       {ArtworksData.map((artwork) => (
-        <MuiCard sx={{ maxWidth: 345 }} key={artwork.name}>
+        <MuiCard
+          sx={{ maxWidth: 345 }}
+          key={artwork.name}
+          className={styles.card}
+        >
           <CardActionArea>
             <CardMedia
               component="img"
@@ -21,9 +25,10 @@ const Card = () => {
             <CardContent className={styles.cardTextBody}>
               <Typography
                 className={styles.cardText}
-                gutterBottom
-                variant="h5"
+                variant="h6"
                 component="div"
+                align="center"
+                fontFamily="Alegreya Sans"
               >
                 {artwork.name}
               </Typography>
