@@ -31,7 +31,10 @@
 
 .card {
   opacity: 0;
-  animation: appear calc(var(--nth-child) * 0.2s) 0.5s forwards;
+  animation: appear 0.3s ease-out forwards;
+  animation-delay: calc(var(--nth-child) * 0.1s);
+  /* animation: appear calc(var(--nth-child) * 3s) forwards; */
+  /* animation: appear 700ms ease-out forwards; */
 }
 
 .cardTextBody {
