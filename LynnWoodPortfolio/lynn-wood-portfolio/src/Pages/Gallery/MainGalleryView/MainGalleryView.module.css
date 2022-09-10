@@ -1,37 +1,49 @@
+/* html,
+body {
+  height: 100vh;
+  overflow-x: hidden;
+} */
+
 .outerContainer {
   width: 100vw;
   display: flex;
   justify-content: center;
-  height: auto;
-  /* overflow-y: scroll; */
-  /* margin-top: 5vh; */
-  /* border: 2px solid black; */
-  /* align-items: center; */
-  /* overflow-x: hidden; */
-  /* padding-bottom: 10vh; */
-  /* overflow: auto; */
+  align-items: center;
+  height: 90vh;
+  padding-top: 3.5vh;
 }
 
 .innerContainer {
-  height: 100%;
+  max-height: 100%;
+  height: auto;
   width: 100%;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, auto);
   grid-gap: 60px;
-  /* padding-top: 5vh; */
-  /* padding-bottom: 5vh; */
-  /* border: 1px solid black; */
-  /* width: 60vw; */
-  /* grid-template-rows: repeat(auto, 600px); */
-  /* min-height: 100vh; */
-  /* overflow-y: scroll; */
-  /* overflow-x: hidden; */
+  padding-top: 3.5vh;
+  padding-bottom: 7vh;
+  overflow-y: scroll;
 }
 
 .innerContainer > * {
   width: 400px;
-  /* height: auto; */
-  /* height: 284.5px; */
-  /* height: 300px; */
+}
+
+@media screen and (max-width: 1300px) {
+  .innerContainer {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .innerContainer {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .innerContainer > * {
+    width: 250px;
+  }
 }

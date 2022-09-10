@@ -4,6 +4,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import ArtworksData from "../Artworks/Artworks";
+import styles from "./Card.module.css";
 
 const Card = () => {
   return (
@@ -17,8 +18,13 @@ const Card = () => {
               image={artwork.url}
               alt={artwork.name}
             />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+            <CardContent className={styles.cardTextBody}>
+              <Typography
+                className={styles.cardText}
+                gutterBottom
+                variant="h5"
+                component="div"
+              >
                 {artwork.name}
               </Typography>
             </CardContent>

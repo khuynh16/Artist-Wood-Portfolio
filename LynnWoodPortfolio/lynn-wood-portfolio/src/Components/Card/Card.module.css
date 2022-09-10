@@ -1,1 +1,8 @@
+.cardTextBody {
+  background-color: #d2b48d;
+}
 
+.cardText {
+  font-family: "Alegreya Sans";
+  color: rgb(0, 0, 0);
+}
