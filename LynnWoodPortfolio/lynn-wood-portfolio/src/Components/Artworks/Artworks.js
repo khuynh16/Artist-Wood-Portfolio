@@ -21,6 +21,9 @@ const ArtworksData = [
   },
   {
     name: "Where?",
+    year: "2022.",
+    medium: "Wood.",
+    dimension: '20 x 24".',
     url: require("../../Assets/Images/ArtImages/where.jpg"),
     collectionOfPics: {},
   },
