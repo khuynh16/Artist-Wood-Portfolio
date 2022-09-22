@@ -2,21 +2,13 @@ import MuiCard from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea, DialogContent } from "@mui/material";
+import { CardActionArea } from "@mui/material";
 import ArtworksData from "../Artworks/Artworks";
-import ImageViewer from "../ImageViewer/ImageViewer";
 import { useState } from "react";
-import Dialog from "@mui/material/Dialog";
-import DialogTitle from "@mui/material/DialogTitle";
 import styles from "./Card.module.css";
-
-import GalleryModal from "../../Pages/Gallery/GalleryModal/GalleryModal";
 
 const Card = () => {
   const [selectedArtworkName, setSelectedArtworkName] = useState("");
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
 
   return (
     <>
@@ -29,7 +21,6 @@ const Card = () => {
           <CardActionArea
             onClick={() => {
               setSelectedArtworkName(artwork.name);
-              handleOpen();
             }}
           >
             <CardMedia
@@ -37,15 +28,22 @@ const Card = () => {
               height="250"
               image={artwork.url}
               alt={artwork.name}
-              // data-fancybox={
-              //   selectedArtworkName === artwork.name ? "gallery" : ""
-              // }
+              data-fancybox={
+                selectedArtworkName === artwork.name ? "gallery" : ""
+              }
               data-caption={
+                "<h2 style='margin-top: 30px; font-style: italic'>" +
+                artwork.name +
+                "<h2 style='margin-top: 30px'>" +
+                "<h3>" +
                 artwork.year +
-                "<br>" +
+                "<h3>" +
+                "<h3>" +
                 artwork.medium +
-                "<br>" +
-                artwork.dimension
+                "<h3>" +
+                "<h3>" +
+                artwork.dimension +
+                "<h3>"
               }
               //https://www.npmjs.com/package/react-image-gallery for the gallery and put in modal..
             />
@@ -63,11 +61,6 @@ const Card = () => {
           </CardActionArea>
         </MuiCard>
       ))}
-      <GalleryModal
-        selectedArtworkName={selectedArtworkName}
-        handleClose={handleClose}
-        open={open}
-      />
     </>
   );
 };

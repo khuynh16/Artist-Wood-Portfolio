@@ -1,6 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import ReusableLogo from "../../Components/Logo/Logo";
-// import styles from "./About.module.css";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const About = () => {
   return (
