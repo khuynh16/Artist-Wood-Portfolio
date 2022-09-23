@@ -5,7 +5,7 @@ const ArtworksData = [
     collectionOfPics: {},
   },
   {
-    name: "Bud",
+    name: "Forma",
     url: require("../../Assets/Images/ArtImages/Thumbnails/Bud.jpg"),
     collectionOfPics: {},
   },

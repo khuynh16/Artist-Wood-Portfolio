@@ -6,6 +6,7 @@ import { CardActionArea } from "@mui/material";
 import ArtworksData from "../Artworks/Artworks";
 import { useState } from "react";
 import styles from "./Card.module.css";
+import { Fancybox } from "@fancyapps/ui"; // while not used, needed to run the fancybox image carousel??
 
 const Card = () => {
   const [selectedArtworkName, setSelectedArtworkName] = useState("");
@@ -35,17 +36,16 @@ const Card = () => {
                 "<h2 style='margin-top: 30px; font-style: italic'>" +
                 artwork.name +
                 "<h2 style='margin-top: 30px'>" +
-                "<h3>" +
+                "<h3 style='display: flex; justify-content: center'>" +
                 artwork.year +
                 "<h3>" +
-                "<h3>" +
+                "<h3 style='display: flex; justify-content: center'>" +
                 artwork.medium +
                 "<h3>" +
-                "<h3>" +
+                "<h3 style='display: flex; justify-content: center'>" +
                 artwork.dimension +
                 "<h3>"
               }
-              //https://www.npmjs.com/package/react-image-gallery for the gallery and put in modal..
             />
             <CardContent className={styles.cardTextBody}>
               <Typography
