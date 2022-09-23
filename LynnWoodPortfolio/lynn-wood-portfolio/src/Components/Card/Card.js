@@ -25,13 +25,16 @@ const Card = () => {
             }}
           >
             <CardMedia
+              className="picture"
               component="img"
               height="250"
-              image={artwork.url}
+              // image={artwork.url}
               alt={artwork.name}
               data-fancybox={
                 selectedArtworkName === artwork.name ? "gallery" : ""
               }
+              src={artwork.url}
+              href={artwork.original}
               data-caption={
                 "<h2 style='margin-top: 30px; font-style: italic'>" +
                 artwork.name +
