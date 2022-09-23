@@ -15,20 +15,33 @@ const Card = () => {
     <>
       {ArtworksData.map((artwork) => (
         <MuiCard
-          sx={{ maxWidth: 345 }}
+          sx={{
+            maxWidth: 345,
+            display: artwork.isCategoryPic === false ? "none" : "",
+          }}
           key={artwork.url}
           className={styles.card}
         >
           <CardActionArea
             onClick={() => {
               setSelectedArtworkName(artwork.name);
+              // setTimeout(function () {
+              //   const tes =
+              //     document.getElementsByClassName("fancybox__slide")[0];
+              //   // console.log(tes);
+
+              //   const imge =
+              //     document.getElementsByClassName("fancybox__image")[0];
+
+              //   imge.style.cssText += "margin-left: 20vw";
+
+              //   tes.style.cssText += "display:flex;flex-direction:row";
+              // }, 500);
             }}
           >
             <CardMedia
-              className="picture"
               component="img"
               height="250"
-              // image={artwork.url}
               alt={artwork.name}
               data-fancybox={
                 selectedArtworkName === artwork.name ? "gallery" : ""
@@ -36,10 +49,10 @@ const Card = () => {
               src={artwork.url}
               href={artwork.original}
               data-caption={
-                "<h2 style='margin-top: 30px; font-style: italic'>" +
+                "<h2 style='margin-top: 20px; font-style: italic'>" +
                 artwork.name +
-                "<h2 style='margin-top: 30px'>" +
-                "<h3 style='display: flex; justify-content: center'>" +
+                "<h2>" +
+                "<h3 style='display: flex; justify-content: center; margin-top: 20px'>" +
                 artwork.year +
                 "<h3>" +
                 "<h3 style='display: flex; justify-content: center'>" +

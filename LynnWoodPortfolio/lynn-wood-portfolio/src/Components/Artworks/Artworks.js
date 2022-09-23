@@ -1,15 +1,20 @@
 const ArtworksData = [
   {
     name: "Beginning-Ending",
+    year: "2022.",
+    medium: "Wood.",
+    dimension: '40" x 80".',
     url: require("../../Assets/Images/ArtImages/Thumbnails/beginning-ending.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/beginning-ending.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "Bud",
     url: require("../../Assets/Images/ArtImages/Thumbnails/Bud.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/Bud.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "Forma",
@@ -19,12 +24,14 @@ const ArtworksData = [
     url: require("../../Assets/Images/ArtImages/Thumbnails/forma.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/forma.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "How?",
     url: require("../../Assets/Images/ArtImages/Thumbnails/how.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/how.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "Where?",
@@ -34,36 +41,51 @@ const ArtworksData = [
     url: require("../../Assets/Images/ArtImages/Thumbnails/where.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/where.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "What?",
     url: require("../../Assets/Images/ArtImages/Thumbnails/what.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/what.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "Why?",
     url: require("../../Assets/Images/ArtImages/Thumbnails/why.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/why.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "Reminiscence",
     url: require("../../Assets/Images/ArtImages/Thumbnails/reminiscence.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/reminiscence.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "Harmonizing",
     url: require("../../Assets/Images/ArtImages/Thumbnails/harmonizing.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/harmonizing.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
   },
   {
     name: "Ordinary, Yet Original",
     url: require("../../Assets/Images/ArtImages/Thumbnails/ordinary-yet-original.jpg"),
     original: require("../../Assets/Images/ArtImages/Originals/ordinary-yet-original.jpg"),
     collectionOfPics: {},
+    isCategoryPic: true,
+  },
+
+  // BEGINNING-ENDING GALLERY PICTURES
+  {
+    name: "Beginning-Ending",
+    url: require("../../Assets/Images/ArtImages/Thumbnails/1.jpg"),
+    original: require("../../Assets/Images/ArtImages/Originals/1.jpg"),
+    collectionOfPics: {},
+    isCategoryPic: false,
   },
 ];
 
