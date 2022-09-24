@@ -40,30 +40,48 @@ const Card = () => {
               //   tes.style.cssText += "display:flex;flex-direction:row";
               // }, 500);
             }}
+            data-fancybox={
+              selectedArtworkName === artwork.name ? "gallery" : ""
+            }
+            href={artwork.original}
+            data-caption={
+              "<h2 style='display: flex; justify-content: center; margin-top: 20px; font-style: italic'>" +
+              artwork.name +
+              "<h2>" +
+              "<h3 style='display: flex; justify-content: center; margin-top: 20px'>" +
+              artwork.year +
+              "<h3>" +
+              "<h3 style='display: flex; justify-content: center'>" +
+              artwork.medium +
+              "<h3>" +
+              "<h3 style='display: flex; justify-content: center'>" +
+              artwork.dimension +
+              "<h3>"
+            }
           >
             <CardMedia
               component="img"
               height="250"
               alt={artwork.name}
-              data-fancybox={
-                selectedArtworkName === artwork.name ? "gallery" : ""
-              }
+              // data-fancybox={
+              //   selectedArtworkName === artwork.name ? "gallery" : ""
+              // }
               src={artwork.url}
-              href={artwork.original}
-              data-caption={
-                "<h2 style='display: flex; justify-content: center; margin-top: 20px; font-style: italic'>" +
-                artwork.name +
-                "<h2>" +
-                "<h3 style='display: flex; justify-content: center; margin-top: 20px'>" +
-                artwork.year +
-                "<h3>" +
-                "<h3 style='display: flex; justify-content: center'>" +
-                artwork.medium +
-                "<h3>" +
-                "<h3 style='display: flex; justify-content: center'>" +
-                artwork.dimension +
-                "<h3>"
-              }
+              // href={artwork.original}
+              // data-caption={
+              //   "<h2 style='display: flex; justify-content: center; margin-top: 20px; font-style: italic'>" +
+              //   artwork.name +
+              //   "<h2>" +
+              //   "<h3 style='display: flex; justify-content: center; margin-top: 20px'>" +
+              //   artwork.year +
+              //   "<h3>" +
+              //   "<h3 style='display: flex; justify-content: center'>" +
+              //   artwork.medium +
+              //   "<h3>" +
+              //   "<h3 style='display: flex; justify-content: center'>" +
+              //   artwork.dimension +
+              //   "<h3>"
+              // }
             />
             <CardContent className={styles.cardTextBody}>
               <Typography
