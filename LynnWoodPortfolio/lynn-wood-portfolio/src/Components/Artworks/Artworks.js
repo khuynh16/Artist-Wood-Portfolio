@@ -145,7 +145,6 @@ const justPictures = [];
 // logic that takes the above array of gallery image data and just includes the image objects
 ArtworksData.map((artwork) =>
   artwork.collectionOfPics.map((currentPicture, i) => {
-    console.log(artwork.year);
     currentPicture["name"] = artwork.name;
     currentPicture["year"] = artwork.year;
     currentPicture["medium"] = artwork.medium;

@@ -11,8 +11,6 @@ import { Fancybox } from "@fancyapps/ui"; // while not used, needed to run the f
 const Card = () => {
   const [selectedArtworkName, setSelectedArtworkName] = useState("");
 
-  console.log(justPictures);
-
   return (
     <>
       {justPictures.map((artwork) => (
@@ -45,7 +43,7 @@ const Card = () => {
             }
             href={artwork.original}
             data-caption={
-              "<h2 style='display: flex; justify-content: center; margin-top: 20px; font-style: italic'>" +
+              "<h2 style='display: flex; justify-content: center; padding-top: 25px; font-style: italic'>" +
               artwork.name +
               "<h2>" +
               "<h3 style='display: flex; justify-content: center; margin-top: 20px'>" +
@@ -54,7 +52,7 @@ const Card = () => {
               "<h3 style='display: flex; justify-content: center'>" +
               artwork.medium +
               "<h3>" +
-              "<h3 style='display: flex; justify-content: center'>" +
+              "<h3 style='display: flex; justify-content: center;'>" +
               artwork.dimension +
               "<h3>"
             }
