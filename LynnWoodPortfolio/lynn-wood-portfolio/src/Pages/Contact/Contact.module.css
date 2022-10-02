@@ -8,10 +8,6 @@
   flex-direction: column;
 }
 
-.outerContainer > div {
-  margin-bottom: 5vh; /* why this moves the container up, idk */
-}
-
 .innerContainer {
   height: 80%;
   width: 70%;
@@ -23,8 +19,10 @@
   border-radius: 0.5rem;
 }
 
-h1 {
-  padding-bottom: 1.5rem;
+.contactTitle {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .picture {
@@ -70,7 +68,55 @@ textarea {
   resize: none;
 }
 
-.css-sghohy-MuiButtonBase-root-MuiButton-root {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+@media screen and (max-width: 1600px) {
+  .innerContainer {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  textarea {
+    height: 7em;
+  }
+
+  .innerContainer {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .innerContainer {
+    width: 80%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .innerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+  }
+
+  .picture {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+  }
+
+  .form {
+    margin-top: 2rem;
+    height: 60%;
+  }
+
+  .contactTitle {
+    font-size: 1.7rem;
+  }
 }

@@ -10,7 +10,7 @@ const Contact = () => {
       <Navbar />
       <ReusableLogo />
       <div className={styles.outerContainer}>
-        <h1>Let's Chat!</h1>
+        <div className={styles.contactTitle}>Let's Chat!</div>
         <div className={styles.innerContainer}>
           <img
             className={styles.picture}
@@ -33,7 +33,12 @@ const Contact = () => {
             ></textarea>
             <Button
               variant="contained"
-              sx={{ fontFamily: "Lucida Sans Regular" }}
+              sx={{
+                fontFamily: "Lucida Sans Regular",
+                fontWeight: "bold",
+                fontSize: "1rem",
+                mt: "1rem",
+              }}
             >
               Submit Message
             </Button>
