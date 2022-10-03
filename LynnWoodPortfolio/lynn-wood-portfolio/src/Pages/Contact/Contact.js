@@ -4,19 +4,45 @@ import styles from "./Contact.module.css";
 import contact_pic from "../../Assets/Images/Contact.jpg";
 import Button from "@mui/material/Button";
 import { useState } from "react";
+import axios from "axios";
 
 const Contact = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
   const validSubmission = (event) => {
     event.preventDefault();
-    console.log("Here!");
     setFormSubmitted(!formSubmitted);
+
+    axios.defaults.headers.post["Content-Type"] = "application/json";
+    axios
+      .post("https://formsubmit.co/lynn.nguyen1206@hotmail.com", {
+        name: name,
+        email: email,
+        subject: subject,
+        message: message,
+      })
+      .then((response) => console.log(response))
+      .catch((error) => console.log(error));
   };
 
   const updateName = (event) => {
     setName(event.target.value);
+  };
+
+  const updateEmail = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const updateSubject = (event) => {
+    setSubject(event.target.value);
+  };
+
+  const updateMessage = (event) => {
+    setMessage(event.target.value);
   };
 
   return (
@@ -36,8 +62,6 @@ const Contact = () => {
             style={{
               display: formSubmitted ? "none" : "",
             }}
-            // action="https://formsubmit.co/lynn.clover1206@gmail.com"
-            // method="POST"
             onSubmit={validSubmission}
           >
             <div>
@@ -53,11 +77,25 @@ const Contact = () => {
             </div>
             <div>
               <label htmlFor="email">Email Address:</label>
-              <input type="email" id="email" name="email" required></input>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                value={email}
+                onChange={updateEmail}
+              ></input>
             </div>
             <div>
               <label htmlFor="email">Subject:</label>
-              <input type="text" id="subject" name="subject" required></input>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                required
+                value={subject}
+                onChange={updateSubject}
+              ></input>
             </div>
             <div>
               <label htmlFor="email">Message:</label>
@@ -67,6 +105,8 @@ const Contact = () => {
                 name="message"
                 rows="10"
                 required
+                value={message}
+                onChange={updateMessage}
               ></textarea>
             </div>
             <Button
