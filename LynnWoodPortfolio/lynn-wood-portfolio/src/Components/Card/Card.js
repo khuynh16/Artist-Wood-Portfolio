@@ -10,21 +10,31 @@ import { Fancybox } from "@fancyapps/ui"; // while not used, needed to run the f
 
 const Card = () => {
   const [selectedArtworkName, setSelectedArtworkName] = useState("");
+  const justMainCategoryPictures = justPictures.filter(
+    (picture) => picture.isCategoryPic === true
+  );
+  const [currentPicturesArray, setCurrentPicturesArray] = useState(
+    justMainCategoryPictures
+  );
 
   return (
     <>
-      {justPictures.map((artwork) => (
+      {currentPicturesArray.map((artwork) => (
         <MuiCard
           sx={{
             maxWidth: 345,
             display: artwork.isCategoryPic === false ? "none" : "",
           }}
-          key={artwork.url}
+          key={artwork.thumbnail}
           className={styles.card}
         >
           <CardActionArea
             onClick={() => {
               setSelectedArtworkName(artwork.name);
+              // once clicked, exchanges the array of only main category pictures
+              // with the array that has all pictures so Fancybox is able to load
+              // all images in each gallery category picture carousel
+              setCurrentPicturesArray(justPictures);
               // setTimeout(function () {
               //   const tes =
               //     document.getElementsByClassName("fancybox__slide")[0];
@@ -61,25 +71,7 @@ const Card = () => {
               component="img"
               height="250"
               alt={artwork.name}
-              // data-fancybox={
-              //   selectedArtworkName === artwork.name ? "gallery" : ""
-              // }
-              src={artwork.url}
-              // href={artwork.original}
-              // data-caption={
-              //   "<h2 style='display: flex; justify-content: center; margin-top: 20px; font-style: italic'>" +
-              //   artwork.name +
-              //   "<h2>" +
-              //   "<h3 style='display: flex; justify-content: center; margin-top: 20px'>" +
-              //   artwork.year +
-              //   "<h3>" +
-              //   "<h3 style='display: flex; justify-content: center'>" +
-              //   artwork.medium +
-              //   "<h3>" +
-              //   "<h3 style='display: flex; justify-content: center'>" +
-              //   artwork.dimension +
-              //   "<h3>"
-              // }
+              src={artwork.thumbnail}
             />
             <CardContent className={styles.cardTextBody}>
               <Typography

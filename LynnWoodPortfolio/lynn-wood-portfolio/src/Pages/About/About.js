@@ -6,6 +6,13 @@ const About = () => {
     <>
       <Navbar />
       <ReusableLogo />
+      {/* <div className={styles.outerContainer}>
+        <div className={styles.banner}></div>
+        <div className={styles.content}>
+          <div className={styles.artistStatement}></div>
+          <div className={styles.biography}></div>
+        </div>
+      </div> */}
     </>
   );
 };
