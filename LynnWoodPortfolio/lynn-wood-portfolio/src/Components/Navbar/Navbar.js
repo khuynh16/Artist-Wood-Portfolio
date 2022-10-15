@@ -38,7 +38,7 @@ const Navbar = () => {
             </button>
           </Link>
 
-          <Link to="/exhibitions">
+          {/* <Link to="/exhibitions">
             <button
               className={
                 location.pathname === "/exhibitions" ? styles.activeRoute : ""
@@ -46,7 +46,7 @@ const Navbar = () => {
             >
               Exhibitions
             </button>
-          </Link>
+          </Link> */}
 
           <Link to="/contact">
             <button

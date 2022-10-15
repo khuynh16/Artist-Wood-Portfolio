@@ -1,0 +1,114 @@
+.outerContainer {
+  /* border: 4px solid green; */
+  width: 100%;
+  min-height: 90vh;
+  height: auto;
+}
+
+.banner {
+  /* border: 4px solid blue; */
+  width: 100%;
+  height: 50vh;
+  margin-top: 4vh;
+  position: relative;
+}
+
+.bannerText {
+  position: absolute;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 5rem;
+  left: 5%;
+  top: 30%;
+}
+
+.picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* .mainContent {
+  border: 4px solid purple;
+} */
+
+.artistStatement,
+.biography {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+.mainContent h1 {
+  padding-left: 10%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  font-family: "Alegreya Sans";
+}
+
+.h1TagStyling {
+  border-left: 3px solid black;
+}
+
+h4 {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .mainContent h1 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .banner {
+    height: 35vh;
+  }
+
+  .bannerText {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContent h1 {
+    padding-bottom: 6%;
+    padding-top: 6%;
+  }
+
+  .bannerText {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContent h1 {
+    font-size: 1.5rem;
+  }
+
+  .artistStatement,
+  .biography {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .bannerText {
+    top: 15%;
+    font-size: 2rem;
+  }
+
+  .mainContent h1 {
+    padding-bottom: 10%;
+    padding-top: 15%;
+  }
+}
