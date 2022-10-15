@@ -15,7 +15,7 @@ const Home = () => {
         <div className={styles.shadow} />
       </div>
       <div className={styles.artistName}>
-        <span className={styles.firstName}>Lynn</span>
+        <span>Lynn</span>
         <span>Nguyen</span>
       </div>
       <div className={styles.artistPhrase}>

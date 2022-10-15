@@ -9,13 +9,14 @@ ul {
 }
 
 .container {
-  width: 30vw;
+  width: 35vw;
   display: flex;
   align-items: self-start;
   justify-content: space-evenly;
   position: absolute;
-  top: 3rem;
-  right: 3rem;
+
+  top: 4vh;
+  right: 1vw;
 }
 
 .hiddenAnimationCSS {
@@ -27,7 +28,8 @@ ul {
 .container button {
   background-color: white;
   font-family: "Alegreya Sans";
-  font-size: 1.6rem;
+
+  font-size: 1.5vw;
 }
 
 .container a button:hover {
@@ -59,8 +61,8 @@ ul {
   justify-content: space-evenly;
   background-color: white;
   position: absolute;
-  top: 3rem;
-  right: 3rem;
+  top: 5vh;
+  right: 5vw;
 }
 
 .hamburgerNonHomePageStyling {
@@ -108,6 +110,18 @@ button {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .container {
+    top: 3rem;
+    right: 3rem;
+    width: 25vw;
+  }
+
+  .container button {
+    font-size: 1.6rem;
   }
 }
 

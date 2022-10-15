@@ -44,24 +44,28 @@
   flex-direction: column;
   justify-content: flex-start;
   position: absolute;
-  top: 3rem;
-  left: 3rem;
+
+  top: 5vh;
+  left: 5vw;
+
   opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms;
 }
 
 .artistName span {
-  border-left: 5px solid black;
-  padding-left: 0.5rem;
+  border-left: 0.4vw solid black;
+  padding-left: 0.8vw;
 }
 
 .artistPhrase {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 3rem;
-  bottom: 3rem;
+
+  right: 5vw;
+  bottom: 5vh;
+
   opacity: 0;
   animation: appear 700ms ease-out forwards;
   animation-delay: 1000ms;
@@ -70,13 +74,13 @@
 .artistPhrase span {
   display: flex;
   justify-content: flex-end;
-  border-right: 5px solid black;
-  padding-right: 0.5rem;
+  border-right: 0.4vw solid black;
+  padding-right: 0.8vw;
 }
 
 .artistName,
 .artistPhrase {
-  font-size: 2.5rem;
+  font-size: 2.2vw;
 }
 
 @keyframes slide-down {
@@ -111,6 +115,16 @@
   .artistName,
   .artistPhrase {
     font-size: 2rem;
+  }
+
+  .artistPhrase span {
+    border-right: 5px solid black;
+    padding-right: 0.5rem;
+  }
+
+  .artistName span {
+    border-left: 5px solid black;
+    padding-left: 0.5rem;
   }
 }
 

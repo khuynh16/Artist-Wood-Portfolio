@@ -9,6 +9,7 @@
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20vh;
 }
 
 .outerContainer > * {
@@ -149,12 +150,11 @@ textarea {
 /* HEIGHT RESPONSIVENESS */
 @media screen and (max-height: 1000px) {
   .outerContainer {
-    margin-top: 10vh;
+    margin-top: 20vh;
   }
 
   .innerContainer {
     height: 150vh;
-    margin-bottom: 10vh;
   }
 }
 
