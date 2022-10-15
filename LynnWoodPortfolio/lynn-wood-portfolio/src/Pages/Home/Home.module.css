@@ -117,6 +117,16 @@
     font-size: 2rem;
   }
 
+  .artistName {
+    top: 5vh;
+    left: 8vw;
+  }
+
+  .artistPhrase {
+    bottom: 5vh;
+    right: 8vw;
+  }
+
   .artistPhrase span {
     border-right: 5px solid black;
     padding-right: 0.5rem;
