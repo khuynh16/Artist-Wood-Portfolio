@@ -8,10 +8,20 @@ ul {
   display: flex;
 }
 
+.instagramIcon,
+.linkedinIcon {
+  display: flex;
+  align-items: center;
+}
+
+.instagramIcon:hover {
+  text-decoration: underline;
+}
+
 .container {
   width: 35vw;
   display: flex;
-  align-items: self-start;
+  align-items: center;
   justify-content: space-evenly;
   position: absolute;
 
@@ -37,21 +47,6 @@ ul {
   text-underline-offset: 0.3rem;
   color: black;
 }
-
-/* .hamburger {
-  width: 35px;
-  height: 1.5rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: white;
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
-  opacity: 0;
-  animation: appear 700ms ease-out forwards;
-  animation-delay: 1000ms;
-} */
 
 .hamburgerHomePageStyling {
   width: 35px;
@@ -154,6 +149,7 @@ button {
     color: white;
     font-family: "Alegreya Sans";
     font-size: 1.5rem;
+    justify-content: center;
   }
 
   .expanded button:hover {

@@ -1,3 +1,9 @@
+/* this piece of coded needed to shop contact page html overflowing and needing scroll
+   bar when not needed.. */
+html {
+  height: 0;
+}
+
 .outerContainer {
   width: 100%;
   max-width: 2000px;

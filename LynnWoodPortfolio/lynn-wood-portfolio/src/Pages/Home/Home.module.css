@@ -28,7 +28,7 @@
   position: absolute;
   bottom: 8vh;
   width: 90%;
-  height: 16px;
+  height: 2vh;
   background: #d9d9d9;
   border-radius: 50%;
   animation: appear 1000ms ease-out forwards;
@@ -46,7 +46,7 @@
   position: absolute;
 
   top: 5vh;
-  left: 5vw;
+  left: 4vw;
 
   opacity: 0;
   animation: appear 700ms ease-out forwards;
@@ -63,7 +63,7 @@
   flex-direction: column;
   position: absolute;
 
-  right: 5vw;
+  right: 4vw;
   bottom: 5vh;
 
   opacity: 0;

@@ -35,6 +35,11 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/Beginning-Ending/5.jpg"),
         isCategoryPic: false,
       },
+      // {
+      //   thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Beginning-Ending/5.jpg"),
+      //   original: "https://vimeo.com/731738424",
+      //   isCategoryPic: false,
+      // },
     ],
   },
   {
@@ -73,6 +78,21 @@ const ArtworksData = [
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/categoryPic.jpg"),
         original: require("../../Assets/Images/ArtImages/Originals/How/categoryPic.jpg"),
         isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/3.jpg"),
+        isCategoryPic: false,
       },
     ],
   },

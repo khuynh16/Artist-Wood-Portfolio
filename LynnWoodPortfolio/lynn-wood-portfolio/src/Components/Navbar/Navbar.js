@@ -1,6 +1,8 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { useState } from "react";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -27,7 +29,6 @@ const Navbar = () => {
               About
             </button>
           </Link>
-
           <Link to="/gallery">
             <button
               className={
@@ -37,7 +38,6 @@ const Navbar = () => {
               Gallery
             </button>
           </Link>
-
           {/* <Link to="/exhibitions">
             <button
               className={
@@ -47,7 +47,6 @@ const Navbar = () => {
               Exhibitions
             </button>
           </Link> */}
-
           <Link to="/contact">
             <button
               className={
@@ -57,6 +56,22 @@ const Navbar = () => {
               Contact
             </button>
           </Link>
+          <button
+            className={styles.instagramIcon}
+            onClick={() =>
+              window.open("//www.instagram.com/l7nne4rth/", "_blank")
+            }
+          >
+            <InstagramIcon fontSize="large" />
+          </button>
+          <button
+            className={styles.linkedinIcon}
+            onClick={() =>
+              window.open("//www.linkedin.com/in/lynnnguyenLP", "_blank")
+            }
+          >
+            <LinkedInIcon fontSize="large" />
+          </button>
         </div>
         <button
           className={
