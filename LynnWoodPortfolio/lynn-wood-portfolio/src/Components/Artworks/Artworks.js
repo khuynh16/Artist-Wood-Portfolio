@@ -94,6 +94,46 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/How/3.jpg"),
         isCategoryPic: false,
       },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/5.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/5.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/6.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/6.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/7.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/7.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/8.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/8.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/9.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/9.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/10.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/10.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/11.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/How/11.jpg"),
+        isCategoryPic: false,
+      },
     ],
   },
   {
@@ -107,6 +147,36 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/Where/categoryPic.jpg"),
         isCategoryPic: true,
       },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/3.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/5.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/5.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/6.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/6.jpg"),
+        isCategoryPic: false,
+      },
     ],
   },
   {
@@ -119,6 +189,21 @@ const ArtworksData = [
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/categoryPic.jpg"),
         original: require("../../Assets/Images/ArtImages/Originals/What/categoryPic.jpg"),
         isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/What/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/What/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/What/3.jpg"),
+        isCategoryPic: false,
       },
     ],
   },
@@ -134,6 +219,21 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/Why/categoryPic.jpg"),
         isCategoryPic: true,
       },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Why/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Why/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Why/3.jpg"),
+        isCategoryPic: false,
+      },
     ],
   },
   {
@@ -146,6 +246,31 @@ const ArtworksData = [
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/categoryPic.jpg"),
         original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/categoryPic.jpg"),
         isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/3.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/5.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/5.jpg"),
+        isCategoryPic: false,
       },
     ],
   },
