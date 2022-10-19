@@ -20,6 +20,7 @@
   font-size: 5rem;
   left: 5%;
   top: 30%;
+  -webkit-text-stroke: 1px black;
 }
 
 .picture {
