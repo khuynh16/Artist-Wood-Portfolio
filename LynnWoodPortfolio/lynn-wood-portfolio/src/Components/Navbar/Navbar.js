@@ -81,11 +81,29 @@ const Navbar = () => {
                 styles.hiddenAnimationCSS
               : styles.hamburgerNonHomePageStyling
           }
+          style={{
+            backgroundColor: isNavExpanded ? "rgb(56 55 55)" : "white",
+          }}
           onClick={() => setIsNavExpanded(!isNavExpanded)}
         >
-          <span className={styles.hamburgerLine}></span>
-          <span className={styles.hamburgerLine}></span>
-          <span className={styles.hamburgerLine}></span>
+          <span
+            className={styles.hamburgerLine}
+            style={{
+              background: isNavExpanded ? "white" : "black",
+            }}
+          ></span>
+          <span
+            className={styles.hamburgerLine}
+            style={{
+              background: isNavExpanded ? "white" : "black",
+            }}
+          ></span>
+          <span
+            className={styles.hamburgerLine}
+            style={{
+              background: isNavExpanded ? "white" : "black",
+            }}
+          ></span>
         </button>
       </nav>
       <Outlet />

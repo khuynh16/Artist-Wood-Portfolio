@@ -72,6 +72,11 @@ ul {
   right: 2rem;
 }
 
+.hamburgerHomePageStyling,
+.hamburgerNonHomePageStyling {
+  z-index: 1000;
+}
+
 .hamburger:hover,
 button {
   cursor: pointer;
@@ -88,8 +93,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  transform: translateY(11vh);
-  height: 40vh;
+  height: 100vh;
   z-index: 1000;
   width: 100vw;
 }
@@ -139,16 +143,15 @@ button {
 
   .expanded {
     position: absolute;
-    top: 5vh;
   }
 
   .expanded button {
-    height: 3rem;
+    height: 8vh;
     width: 100vw;
     background-color: #66339900;
     color: white;
     font-family: "Alegreya Sans";
-    font-size: 1.5rem;
+    font-size: 3vh;
     justify-content: center;
   }
 

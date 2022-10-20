@@ -35,6 +35,10 @@
   animation-delay: calc(var(--nth-child) * 0.1s);
 }
 
+.card:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 .cardTextBody {
   background-color: #d2b48d;
 }
