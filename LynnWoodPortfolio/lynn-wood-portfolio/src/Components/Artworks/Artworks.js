@@ -35,11 +35,21 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/Beginning-Ending/5.jpg"),
         isCategoryPic: false,
       },
-      // {
-      //   thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Beginning-Ending/5.jpg"),
-      //   original: "https://vimeo.com/731738424",
-      //   isCategoryPic: false,
-      // },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Beginning-Ending/6.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Beginning-Ending/6.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Beginning-Ending/7.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Beginning-Ending/7.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Beginning-Ending/8.jpg"),
+        original: "https://vimeo.com/696814828",
+        isCategoryPic: false,
+      },
     ],
   },
   {
@@ -272,6 +282,11 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/5.jpg"),
         isCategoryPic: false,
       },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/6.jpg"),
+        original: "https://vimeo.com/696814963",
+        isCategoryPic: false,
+      },
     ],
   },
   {
@@ -286,6 +301,46 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/categoryPic.jpg"),
         isCategoryPic: true,
       },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/3.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/5.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/5.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/6.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/6.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/7.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/7.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/8.jpg"),
+        original: "https://vimeo.com/696815019",
+        isCategoryPic: false,
+      },
     ],
   },
   {
@@ -298,6 +353,21 @@ const ArtworksData = [
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/categoryPic.jpg"),
         original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/categoryPic.jpg"),
         isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/3.jpg"),
+        isCategoryPic: false,
       },
     ],
   },

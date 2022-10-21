@@ -54,9 +54,9 @@
   font-family: "Alegreya Sans";
 }
 
-.mainContent h1:first-child {
+/* .mainContent h1:first-child {
   margin-top: 3%;
-}
+} */
 
 .h1TagStyling {
   border-left: 3px solid black;
