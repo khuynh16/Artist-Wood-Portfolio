@@ -149,7 +149,19 @@ textarea {
 
   .contactTitle {
     font-size: 1.7rem;
-    margin-top: 5rem;
+    margin-top: 20vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactTitle {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contactTitle {
+    margin-top: 30vh;
   }
 }
 
