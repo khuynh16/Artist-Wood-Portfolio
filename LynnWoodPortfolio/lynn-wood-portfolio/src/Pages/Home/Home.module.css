@@ -7,8 +7,9 @@
 } */
 
 .container {
-  height: 80vh;
+  height: 70vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -24,9 +25,6 @@
 }
 
 .shadow {
-  width: 100px;
-  position: absolute;
-  bottom: 8vh;
   width: 90%;
   height: 2vh;
   background: #d9d9d9;
