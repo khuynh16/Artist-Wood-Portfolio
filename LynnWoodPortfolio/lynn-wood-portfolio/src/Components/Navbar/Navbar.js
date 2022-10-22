@@ -3,6 +3,7 @@ import styles from "./Navbar.module.css";
 import { useState } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import ReusableLogo from "../../Components/Logo/Logo";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -11,13 +12,14 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.nav}>
+        <ReusableLogo />
         <div
           className={
             isNavExpanded
               ? styles.expanded
               : location.pathname === "/"
-              ? styles.hiddenAnimationCSS + " " + styles.container
-              : styles.container
+              ? styles.hiddenAnimationCSS + " " + styles.navLinksContainer
+              : styles.navLinksContainer
           }
         >
           <Link to="/about">

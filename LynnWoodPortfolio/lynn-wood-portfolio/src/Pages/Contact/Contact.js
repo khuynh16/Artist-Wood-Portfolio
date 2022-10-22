@@ -1,5 +1,4 @@
 import Navbar from "../../Components/Navbar/Navbar";
-import ReusableLogo from "../../Components/Logo/Logo";
 import styles from "./Contact.module.css";
 import contact_pic from "../../Assets/Images/Contact.jpg";
 import Button from "@mui/material/Button";
@@ -48,82 +47,84 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <ReusableLogo />
       <div className={styles.outerContainer}>
-        <div className={styles.contactTitle}>Let's Chat!</div>
         <div className={styles.innerContainer}>
-          <img
-            className={styles.picture}
-            src={contact_pic}
-            alt={"working on beginning_ending project"}
-          ></img>
-          <form
-            className={styles.form}
-            style={{
-              display: formSubmitted ? "none" : "",
-            }}
-            onSubmit={validSubmission}
-          >
-            <div>
-              <label htmlFor="name">Name:</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                value={name}
-                onChange={updateName}
-              ></input>
-            </div>
-            <div>
-              <label htmlFor="email">Email Address:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                value={email}
-                onChange={updateEmail}
-              ></input>
-            </div>
-            <div>
-              <label htmlFor="email">Subject:</label>
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                required
-                value={subject}
-                onChange={updateSubject}
-              ></input>
-            </div>
-            <div>
-              <label htmlFor="email">Message:</label>
-              <textarea
-                type="text"
-                id="message"
-                name="message"
-                rows="10"
-                required
-                value={message}
-                onChange={updateMessage}
-              ></textarea>
-            </div>
-            <Button
-              variant="contained"
-              sx={{
-                fontFamily: "Lucida Sans Regular",
-                fontWeight: "bold",
-                fontSize: "1.2rem",
-                mt: "1rem",
-                textTransform: "capitalize",
+          <div className={styles.contactTitle}>Let's Chat!</div>
+          <div className={styles.formContent}>
+            <img
+              className={styles.picture}
+              src={contact_pic}
+              alt={"working on beginning_ending project"}
+            ></img>
+            <form
+              className={styles.form}
+              style={{
+                display: formSubmitted ? "none" : "",
               }}
-              type="submit"
-              value="Submit"
+              onSubmit={validSubmission}
             >
-              Submit Message
-            </Button>
-          </form>
+              <div>
+                <label htmlFor="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  value={name}
+                  onChange={updateName}
+                ></input>
+              </div>
+              <div>
+                <label htmlFor="email">Email Address:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  value={email}
+                  onChange={updateEmail}
+                ></input>
+              </div>
+              <div>
+                <label htmlFor="email">Subject:</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  value={subject}
+                  onChange={updateSubject}
+                ></input>
+              </div>
+              <div>
+                <label htmlFor="email">Message:</label>
+                <textarea
+                  type="text"
+                  id="message"
+                  name="message"
+                  rows="10"
+                  required
+                  value={message}
+                  onChange={updateMessage}
+                ></textarea>
+              </div>
+              <Button
+                variant="contained"
+                sx={{
+                  fontFamily: "Lucida Sans Regular",
+                  fontWeight: "bold",
+                  fontSize: "1.2rem",
+                  mt: "1rem",
+                  textTransform: "capitalize",
+                }}
+                type="submit"
+                value="Submit"
+              >
+                Submit Message
+              </Button>
+            </form>
+          </div>
+
           <div
             className={styles.emailSubmissionMessage}
             style={{ display: !formSubmitted ? "none" : "flex" }}

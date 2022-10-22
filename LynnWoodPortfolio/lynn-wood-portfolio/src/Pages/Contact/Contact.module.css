@@ -7,24 +7,27 @@ html {
 .outerContainer {
   width: 100%;
   max-width: 2000px;
-  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 90vh;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20vh;
+  padding-top: 5vh;
 }
 
-.outerContainer > * {
+/* .outerContainer > * {
   margin-bottom: 5vh;
-}
+} */
 
 .innerContainer {
-  height: 80%;
-  width: 70%;
+  max-height: 100%;
+  height: auto;
+}
+
+.formContent {
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   align-items: center;
@@ -32,12 +35,15 @@ html {
   background-color: #d2b48d;
   border-radius: 0.5rem;
   box-shadow: rgb(0 0 0 / 35%) 0px 3px 10px 0px;
+  /* padding-bottom: 20vh; */
 }
 
 .contactTitle {
   margin-bottom: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .picture {
@@ -97,19 +103,15 @@ textarea {
   align-items: center;
 }
 
-@media screen and (max-width: 1600px) {
-  .innerContainer {
+/* @media screen and (max-width: 1600px) {
+  .formContent {
     height: 70%;
   }
-}
+} */
 
 @media screen and (max-width: 1400px) {
   textarea {
     height: 7em;
-  }
-
-  .innerContainer {
-    height: 60%;
   }
 }
 
@@ -122,16 +124,16 @@ textarea {
 
   .innerContainer {
     width: 80%;
-    height: 70%;
+    height: 80%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .innerContainer {
+  .formContent {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 0;
   }
 
@@ -144,35 +146,22 @@ textarea {
 
   .form {
     margin-top: 3rem;
+    margin-bottom: 3rem;
     height: 65%;
   }
 
   .contactTitle {
     font-size: 1.7rem;
-    margin-top: 20vh;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .contactTitle {
+  /* .contactTitle {
     margin-top: 10vh;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .contactTitle {
-    margin-top: 30vh;
-  }
-}
-
-/* HEIGHT RESPONSIVENESS */
-@media screen and (max-height: 1000px) {
-  .outerContainer {
-    margin-top: 20vh;
-  }
-
+  } */
   .innerContainer {
-    height: 150vh;
+    width: 100%;
+    height: 100%;
   }
 }
 
