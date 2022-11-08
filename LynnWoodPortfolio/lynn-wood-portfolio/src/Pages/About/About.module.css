@@ -42,7 +42,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -68,6 +67,12 @@
 h4 {
   margin-left: 0;
   margin-right: auto;
+}
+
+.exhibitions2021,
+.exhibitions2022 {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1600px) {

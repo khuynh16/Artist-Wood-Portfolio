@@ -1,9 +1,22 @@
 const ArtworksData = [
   {
+    name: "Bud",
+    year: "2019.",
+    medium: "Mixed Media.",
+    dimension: '24" x 25" x 24".',
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Bud/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Bud/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+    ],
+  },
+  {
     name: "Beginning-Ending",
-    year: "2022.",
-    medium: "Wood.",
-    dimension: '40" x 80".',
+    year: "2021.",
+    medium: "Wood Joinery; Augmented Reality; Mixed Media.",
+    dimension: '27" x 24" x 75".',
     collectionOfPics: [
       {
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Beginning-Ending/categoryPic.jpg"),
@@ -53,23 +66,10 @@ const ArtworksData = [
     ],
   },
   {
-    name: "Bud",
-    year: "2022.",
-    medium: "Wood.",
-    dimension: '50" x 100".',
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Bud/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Bud/categoryPic.jpg"),
-        isCategoryPic: true,
-      },
-    ],
-  },
-  {
     name: "Forma",
-    year: "2022.",
+    year: "2021.",
     medium: "Wood.",
-    dimension: '18" x 24".',
+    dimension: '12" x 9" x 12".',
     collectionOfPics: [
       {
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Forma/categoryPic.jpg"),
@@ -79,10 +79,121 @@ const ArtworksData = [
     ],
   },
   {
+    name: "Reminiscence",
+    year: "2021.",
+    medium:
+      "Wood Joinery; Marble Crystal; Resin Crystal Beads Casting; Mixed Media (Wood-Sound).",
+    dimension: '41" x 15" x 41".',
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/3.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/5.jpg"),
+        original: "https://vimeo.com/696814963",
+        isCategoryPic: false,
+      },
+    ],
+  },
+  {
+    name: "Harmonizing",
+    year: "2021.",
+    medium: "Wood Joinery; Levitation; Mixed Media.",
+    dimension: '30" x 26" x 15".',
+
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/3.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/5.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/5.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/6.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/6.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/7.jpg"),
+        original: "https://vimeo.com/696815019",
+        isCategoryPic: false,
+      },
+    ],
+  },
+  {
+    name: "Ordinary, Yet Original",
+    year: "2021.",
+    medium: "Wood Joinery; Levitation; Lamination; Mixed Media.",
+    dimension: '28" x 18" x 36".',
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/2.jpg"),
+        isCategoryPic: false,
+      },
+    ],
+  },
+  {
     name: "How?",
     year: "2022.",
-    medium: "Wood.",
-    dimension: '40" x 80".',
+    medium: "Wood Joinery; Resin Casting; Print Technique.",
+    dimension: '20" x 20" x 25".',
     collectionOfPics: [
       {
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/categoryPic.jpg"),
@@ -139,8 +250,8 @@ const ArtworksData = [
   {
     name: "Where?",
     year: "2022.",
-    medium: "Wood.",
-    dimension: '20" x 24".',
+    medium: "Wood Joinery; Laser Cutting on Plexiglass and Wood; Mixed Media.",
+    dimension: '11" x 1.5" x 11" and 10" x 1.5" x 10".',
     collectionOfPics: [
       {
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/categoryPic.jpg"),
@@ -177,8 +288,8 @@ const ArtworksData = [
   {
     name: "What?",
     year: "2022.",
-    medium: "Wood.",
-    dimension: '40" x 80".',
+    medium: "Wood Joinery; Blue Lapis Crystal; Lamination; Mixed Media.",
+    dimension: '12.5" x 1.5" x 17".',
     collectionOfPics: [
       {
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/categoryPic.jpg"),
@@ -200,9 +311,8 @@ const ArtworksData = [
   {
     name: "Why?",
     year: "2022.",
-    medium: "Wood.",
-    dimension: '40" x 80".',
-
+    medium: "Wood Joinery; Lamination; Mixed Media.",
+    dimension: '18" x 20" x 34".',
     collectionOfPics: [
       {
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/categoryPic.jpg"),
@@ -221,118 +331,6 @@ const ArtworksData = [
       },
     ],
   },
-  {
-    name: "Reminiscence",
-    year: "2022.",
-    medium: "Wood.",
-    dimension: '40" x 80".',
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/categoryPic.jpg"),
-        isCategoryPic: true,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/1.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/1.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/2.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/2.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/3.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/3.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/4.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Reminiscence/4.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Reminiscence/5.jpg"),
-        original: "https://vimeo.com/696814963",
-        isCategoryPic: false,
-      },
-    ],
-  },
-  {
-    name: "Harmonizing",
-    year: "2022.",
-    medium: "Wood.",
-    dimension: '40" x 80".',
-
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/categoryPic.jpg"),
-        isCategoryPic: true,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/1.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/1.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/2.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/2.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/3.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/3.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/4.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/4.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/5.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/5.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/6.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Harmonizing/6.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Harmonizing/7.jpg"),
-        original: "https://vimeo.com/696815019",
-        isCategoryPic: false,
-      },
-    ],
-  },
-  {
-    name: "Ordinary, Yet Original",
-    year: "2022.",
-    medium: "Wood.",
-    dimension: '40" x 80".',
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/categoryPic.jpg"),
-        isCategoryPic: true,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/1.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/1.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/2.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/2.jpg"),
-        isCategoryPic: false,
-      },
-    ],
-  },
-
-  // BEGINNING-ENDING GALLERY PICTURES
 ];
 
 const justPictures = [];

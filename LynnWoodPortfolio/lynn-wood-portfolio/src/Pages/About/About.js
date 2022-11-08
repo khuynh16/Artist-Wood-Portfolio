@@ -63,8 +63,54 @@ const About = () => {
               <br></br>
               <h4>2021:</h4>
               <br></br>
+              <ul className={styles.exhibitions2021}>
+                <li>
+                  Juried Winter Student Exhibition at Stamp Gallery | College
+                  Park, MD
+                </li>
+              </ul>
               <br></br>
               <h4>2022:</h4>
+              <br></br>
+              <ul className={styles.exhibitions2022}>
+                <li>
+                  Hill Center Galleries & CHAL Juried Exhibition 2022 | District
+                  of Columbia, DC
+                </li>
+                <li>
+                  INVASION Exhibition in IA&A at Hillyer | District of Columbia,
+                  DC
+                </li>
+                <li>
+                  The Emerging Artists Exhibition at the Delaplaine Arts Center
+                  | Frederick, MD
+                </li>
+                <li>
+                  Sadat Art for Peace 2022 Competition at Herman Maril Gallery |
+                  College Park, MD
+                </li>
+                <li>
+                  Immersive Media + Arts for All Showcase at Brendan Iribe
+                  Center for Computer Science and Engineering | College Park, MD
+                </li>
+                <li>Luna Lounge event at Stamp Gallery | College Park, MD</li>
+                <li>
+                  A recent collaboration with an Immersive Media group for the
+                  NEXTNOW event at Claire Smith Performing Arts Center | College
+                  Park, MD
+                </li>
+                <li>
+                  The “Momentum” at the Herman Maril Gallery | College Park, MD
+                </li>
+                <li>
+                  “Responsible Chaos” at the Department of Art | College Park,
+                  MD
+                </li>
+                <li>
+                  Small Wonders 2022 at Maryland Federation of Art | Annapolis,
+                  MD
+                </li>
+              </ul>
               <br></br>
               <br></br>
             </span>
