@@ -28,6 +28,9 @@
 :nth-child(10) {
   --nth-child: 10;
 }
+:nth-child(11) {
+  --nth-child: 11;
+}
 
 .card {
   opacity: 0;

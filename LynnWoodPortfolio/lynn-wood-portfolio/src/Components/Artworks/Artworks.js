@@ -331,6 +331,69 @@ const ArtworksData = [
       },
     ],
   },
+  {
+    name: "Anachronism",
+    year: "2022.",
+    medium: "Laminating Wood.",
+    dimension: "Varied Dimensions.",
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/3.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/5.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/5.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/6.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/6.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/7.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/7.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/8.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/8.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/9.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/9.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Anachronism/10.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Anachronism/10.jpg"),
+        isCategoryPic: false,
+      },
+    ],
+  },
 ];
 
 const justPictures = [];
