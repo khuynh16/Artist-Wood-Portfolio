@@ -79,7 +79,8 @@ const Card = () => {
                 variant="h5"
                 component="div"
                 align="center"
-                fontFamily="Alegreya Sans"
+                fontFamily="Roboto, sans-serif"
+                fontWeight="500"
               >
                 {artwork.name}
               </Typography>

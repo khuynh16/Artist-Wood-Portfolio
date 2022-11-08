@@ -111,7 +111,7 @@ const Contact = () => {
               <Button
                 variant="contained"
                 sx={{
-                  fontFamily: "Lucida Sans Regular",
+                  fontFamily: "Roboto Condensed, sans-serif",
                   fontWeight: "bold",
                   fontSize: "1.2rem",
                   mt: "1rem",
