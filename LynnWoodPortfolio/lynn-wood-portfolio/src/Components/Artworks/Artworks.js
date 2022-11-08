@@ -195,11 +195,6 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/What/2.jpg"),
         isCategoryPic: false,
       },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/3.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/What/3.jpg"),
-        isCategoryPic: false,
-      },
     ],
   },
   {
