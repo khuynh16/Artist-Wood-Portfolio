@@ -10,6 +10,11 @@ const ArtworksData = [
         original: require("../../Assets/Images/ArtImages/Originals/Bud/categoryPic.jpg"),
         isCategoryPic: true,
       },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Bud/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Bud/1.jpg"),
+        isCategoryPic: false,
+      },
     ],
   },
   {
