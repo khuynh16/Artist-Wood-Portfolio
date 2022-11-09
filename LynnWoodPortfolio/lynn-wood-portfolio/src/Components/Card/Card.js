@@ -59,7 +59,7 @@ const Card = () => {
               "<h3 style='display: flex; justify-content: center; margin-top: 20px'>" +
               artwork.year +
               "<h3>" +
-              "<h3 style='display: flex; justify-content: center'>" +
+              "<h3 style='display: flex; justify-content: center; align-items: center; text-align: center'>" +
               artwork.medium +
               "<h3>" +
               "<h3 style='display: flex; justify-content: center;'>" +
