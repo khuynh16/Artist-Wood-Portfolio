@@ -184,3 +184,19 @@ button {
     display: none;
   }
 }
+
+@media (orientation: landscape) and (max-width: 1000px) {
+  nav {
+    height: 20vh;
+  }
+
+  .expanded {
+    height: 110vh;
+  }
+
+  .expanded button {
+    font-size: 5vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}

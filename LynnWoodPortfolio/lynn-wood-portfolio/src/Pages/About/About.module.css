@@ -149,3 +149,9 @@ h4 {
     height: 55vh;
   }
 }
+
+@media (orientation: landscape) and (max-width: 1000px) {
+  .banner {
+    margin-top: 5vh;
+  }
+}
