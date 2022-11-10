@@ -18,6 +18,42 @@ const ArtworksData = [
     ],
   },
   {
+    name: "Forma",
+    year: "2021.",
+    medium: "Wood.",
+    dimension: '12" x 9" x 12".',
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Forma/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Forma/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+    ],
+  },
+  {
+    name: "Ordinary, Yet Original",
+    year: "2021.",
+    medium: "Wood Joinery; Levitation; Lamination; Mixed Media.",
+    dimension: '28" x 18" x 36".',
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/2.jpg"),
+        isCategoryPic: false,
+      },
+    ],
+  },
+  {
     name: "Beginning-Ending",
     year: "2021.",
     medium: "Wood Joinery; Augmented Reality; Mixed Media.",
@@ -67,19 +103,6 @@ const ArtworksData = [
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Beginning-Ending/8.jpg"),
         original: "https://vimeo.com/696814828",
         isCategoryPic: false,
-      },
-    ],
-  },
-  {
-    name: "Forma",
-    year: "2021.",
-    medium: "Wood.",
-    dimension: '12" x 9" x 12".',
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Forma/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Forma/categoryPic.jpg"),
-        isCategoryPic: true,
       },
     ],
   },
@@ -172,24 +195,85 @@ const ArtworksData = [
     ],
   },
   {
-    name: "Ordinary, Yet Original",
-    year: "2021.",
-    medium: "Wood Joinery; Levitation; Lamination; Mixed Media.",
-    dimension: '28" x 18" x 36".',
+    name: "Why?",
+    year: "2022.",
+    medium: "Wood Joinery; Lamination; Mixed Media.",
+    dimension: '18" x 20" x 34".',
     collectionOfPics: [
       {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/categoryPic.jpg"),
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Why/categoryPic.jpg"),
         isCategoryPic: true,
       },
       {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/1.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/1.jpg"),
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Why/1.jpg"),
         isCategoryPic: false,
       },
       {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/OrdinaryYetOriginal/2.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/OrdinaryYetOriginal/2.jpg"),
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Why/2.jpg"),
+        isCategoryPic: false,
+      },
+    ],
+  },
+  {
+    name: "What?",
+    year: "2022.",
+    medium: "Wood Joinery; Blue Lapis Crystal; Lamination; Mixed Media.",
+    dimension: '12.5" x 1.5" x 17".',
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/What/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/What/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/What/2.jpg"),
+        isCategoryPic: false,
+      },
+    ],
+  },
+  {
+    name: "Where?",
+    year: "2022.",
+    medium: "Wood Joinery; Laser Cutting on Plexiglass and Wood; Mixed Media.",
+    dimension: '11" x 1.5" x 11" and 10" x 1.5" x 10".',
+    collectionOfPics: [
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/categoryPic.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/categoryPic.jpg"),
+        isCategoryPic: true,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/1.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/1.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/2.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/2.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/3.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/3.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/4.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/4.jpg"),
+        isCategoryPic: false,
+      },
+      {
+        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/5.jpg"),
+        original: require("../../Assets/Images/ArtImages/Originals/Where/5.jpg"),
         isCategoryPic: false,
       },
     ],
@@ -248,90 +332,6 @@ const ArtworksData = [
       {
         thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/How/9.jpg"),
         original: require("../../Assets/Images/ArtImages/Originals/How/9.jpg"),
-        isCategoryPic: false,
-      },
-    ],
-  },
-  {
-    name: "Where?",
-    year: "2022.",
-    medium: "Wood Joinery; Laser Cutting on Plexiglass and Wood; Mixed Media.",
-    dimension: '11" x 1.5" x 11" and 10" x 1.5" x 10".',
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Where/categoryPic.jpg"),
-        isCategoryPic: true,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/1.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Where/1.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/2.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Where/2.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/3.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Where/3.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/4.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Where/4.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Where/5.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Where/5.jpg"),
-        isCategoryPic: false,
-      },
-    ],
-  },
-  {
-    name: "What?",
-    year: "2022.",
-    medium: "Wood Joinery; Blue Lapis Crystal; Lamination; Mixed Media.",
-    dimension: '12.5" x 1.5" x 17".',
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/What/categoryPic.jpg"),
-        isCategoryPic: true,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/1.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/What/1.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/What/2.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/What/2.jpg"),
-        isCategoryPic: false,
-      },
-    ],
-  },
-  {
-    name: "Why?",
-    year: "2022.",
-    medium: "Wood Joinery; Lamination; Mixed Media.",
-    dimension: '18" x 20" x 34".',
-    collectionOfPics: [
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/categoryPic.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Why/categoryPic.jpg"),
-        isCategoryPic: true,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/1.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Why/1.jpg"),
-        isCategoryPic: false,
-      },
-      {
-        thumbnail: require("../../Assets/Images/ArtImages/Thumbnails/Why/2.jpg"),
-        original: require("../../Assets/Images/ArtImages/Originals/Why/2.jpg"),
         isCategoryPic: false,
       },
     ],
