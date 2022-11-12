@@ -12,10 +12,10 @@ The portfolio is currently hosted @ https://lynnnguyenwood.com.
 
 **AWS** (S3, Route53, Certificate Manager, CloudFront) (https://aws.amazon.com/)
 - Amazon Web Services was used to host the portfolio, using a number of services under AWS.
-  - S3: service that holds the production build of the React code (of the portfolio).
-  - Route53: domain name system service that allows users to connect to the portfolio's hosted domain (e.g., lynnnguyenwood.com).
-  - Certificate Manager: service that provides the public certificate and enables HTTPS for the portfolio
-  - CloudFront: content delivery network service that allows the previous S3 object/bucket to utilize Certificate Manager's SSL certficate on the portfolio (by re-       routing the S3 bucket to connect to the CloudFront instance (with the CloudFront instance then connecting to Route53, as opposed to connecting the S3 directly to Route53).
+  - *S3*: service that holds the production build of the React code (of the portfolio).
+  - *Route53*: domain name system service that allows users to connect to the portfolio's hosted domain (e.g., lynnnguyenwood.com).
+  - *Certificate Manager*: service that provides the public certificate and enables HTTPS for the portfolio
+  - *CloudFront*: content delivery network service that allows the previous S3 object/bucket to utilize Certificate Manager's SSL certficate on the portfolio (by re-       routing the S3 bucket to connect to the CloudFront instance (with the CloudFront instance then connecting to Route53, as opposed to connecting the S3 directly to Route53).
 
 **Fancybox** (https://fancyapps.com/docs/ui/fancybox/)
 - The picture gallery library was used for out-of-the-box implementation, with tweaks to the css that affects the images and text positioning.
