@@ -1,25 +1,35 @@
-# Artist-Wood-Portfolio
+# Wood Sculpture Portfolio
 This is an wood artist's portfolio, displaying a showcase of her artworks that revolve around wood crafting.
 
-Potential colors: 
+# Website
 
-black, white and gold
+The portfolio is currently hosted @ https://lynnnguyenwood.com.
 
-# Issues Log:
+# Utilized Technologies
 
-8/25/2022:
+**React** (https://reactjs.org/)
+- The website was coded with React being the library of choice. All html/javascript/css was coded in Visual Studio Code under the library.
 
-- No text underline to show current route
-- Nav bar animation (from no display to slowly appearing) when switching routes (unintended)
-- the responsive hamburger icon disappearing and reappearing when changing browser width (unintended)
+**AWS** (S3, Route53, Certificate Manager, CloudFront) (https://aws.amazon.com/)
+- Amazon Web Services was used to host the portfolio, using a number of services under AWS.
+  - S3: service that holds the production build of the React code (of the portfolio).
+  - Route53: domain name system service that allows users to connect to the portfolio's hosted domain (e.g., lynnnguyenwood.com).
+  - Certificate Manager: service that provides the public certificate and enables HTTPS for the portfolio
+  - CloudFront: content delivery network service that allows the previous S3 object/bucket to utilize Certificate Manager's SSL certficate on the portfolio (by re-       routing the S3 bucket to connect to the CloudFront instance (with the CloudFront instance then connecting to Route53, as opposed to connecting the S3 directly to Route53).
 
-8/26/2022:
+**Fancybox** (https://fancyapps.com/docs/ui/fancybox/)
+- The picture gallery library was used for out-of-the-box implementation, with tweaks to the css that affects the images and text positioning.
 
-- if expanded nav bar from small viewport is open on home page and resizing to bigger, the expanded dropdown disappears but the nav bar in the top right corner also disappears
+**Material UI** (https://mui.com/)
+- Buttons and containers were implemented into the code using its UI tools. 
 
-# Change Log:
+**Formsubmit** (https://formsubmit.co/)
+- The contact page utilizes the email service to allow users to send emails to the artist via the embedded form.
 
-8/25/2022:
+**Google Font** (https://fonts.google.com/)
+- Font choices were chosen and utilized from the Font library.
 
-- Implemented an initlal logo that is utilized as a home button on every page but the home page
-- Created a component for the reusable logo / icon, used in every page but home page
+**Flaticon** (https://www.flaticon.com/)
+- The social media images (Instagram and LinkedIn) were from the library of icons.
+
+
