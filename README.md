@@ -1,5 +1,5 @@
 # Wood Sculpture Portfolio
-This is an wood artist's portfolio, displaying a showcase of her artworks that revolve around wood crafting.
+This is a wood artist's portfolio, displaying a showcase of her artworks that revolve around wood crafting.
 
 # Website
 
